@@ -1,0 +1,78 @@
+title: character2
+tags: 
+colorID: 0
+position: 744,41
+---
+<<if $decker_spoken is 0>>
+    Ph0ney: Sorry friend, I don't cater to the ignorant, go talk to Decker and sn0w before buying anything.
+    [[character2.null]]
+<<endif>>
+
+<<if $snow_spoken is 0>>
+    Ph0ney: Decker should've told you to talk to sn0w. She's standing right there. Do that, then come back.
+    [[character2.null]]
+<<endif>>
+
+<<if $phoney_spoken is 1>>
+    Ph0ney: I'm busy right now getting a HEX done on this custom order. Come back on Tuesday.
+    [[character2.null]]
+<<endif>>
+
+Ph0ney: Hey, kid. Wanna buy a gun?
+
+-> Sure, I might need one.
+    Ph0ney: Someone's thinking ahead. I like Hexxors who stay paranoid.
+-> No thanks. Guns are dangerous.
+    Ph0ney: If you've got that mindset, you won't last long as a Hexxor.
+    [[character2.null]]
+
+Ph0ney: Nice to meet you, kid. I'm Ph0ney. I sell HEX'd out firearms.
+Ph0ney: The assault weapons ban two years ago made it hard for me to import certain merchandise
+Ph0ney: and it just so happens that I specialized in selling only that kind of hardware.
+Ph0ney: Fault's on me for not diversifying, I guess.
+Ph0ney: Regardless, I took to Hexxing as a side gig and started experimenting with meddling Hexxing with firearms.
+Ph0ney: Besides, where else am I gonna find customers who pay in soul energy?
+
+-> You don't take cash? People need soul energy to live.
+    Ph0ney: For ammo and non HEX'd arms, yeah. But HEX'd arms require soul energy to produce, and I'm not gonna shave off my own just to make product.
+    Ph0ney: Don't ever complain about pricing with me, either. I'm the first and only HEXwep dealer around.
+    Ph0ney: If you're not willing to pay a premium markup for a unique product, then don't. I don't need your business.
+-> Would someone really sell their soul just to buy a gun?
+    Ph0ney: Let's put it this way:
+    <<set $soul_sellers to 1>>
+
+Ph0ney: If you start making a name for yourself as a Hexxor, you're gonna have enemies.
+Ph0ney: After all, this is a competitive occupation.
+Ph0ney: HEX is great protection for what we do,
+Ph0ney: But at the end of the day, you're still a squishy, bleeding human.
+Ph0ney: There's little stopping another Hexxor from sneaking into your apartment at night and waiting in front of your door with a shotgun.
+Ph0ney: I don't care if you're the baddest, fastest HEX caster in existence.
+Ph0ney: Bullets cast as soon as the trigger gets pulled.
+Ph0ney: Problem is, straight up shooting another Hexxor sends their soul energy scattering on death,
+Ph0ney: and everyone they've hypno'd gets released from their botnet immediately.
+Ph0ney: You'll live, sure, but doing things the dirty way is bad for the Hexxor ecosystem.
+Ph0ney: However, the damage dealt from HEX'd guns allow you to lay claim on chunks of other Hexxors' soul energy.
+Ph0ney: It's not an exact science, so you'll only get fractions and percentages depending on the quality of the weapon,
+Ph0ney: and all their zombies get released no matter what if they die,
+Ph0ney: but if you ever have to defend yourself, it won't be a complete waste if you accidentally kill the other guy before absorbing him.
+
+<<if $soul_sellers is 1>>
+    Ph0ney: Now you tell me,
+    Ph0ney: is that kind of reassurance worth at least some of your soul?
+<<endif>>
+
+Ph0ney: That's all I've got to say about that.
+Ph0ney: Let me know if you're intested in some gear.
+Ph0ney: Or we could talk some more about HEXweps if you want to make more informed purchases.
+Ph0ney: Anyways, go talk to phreekster to learn about botnetting and absorption.
+<<set $phoney_spoken to 1>>
+[[character2.null]]
+===
+title: character2.null
+tags: 
+colorID: 0
+position: 476,-128
+---
+Ph0ney: Take care of yourself.
+Ph0ney: Remember to keep one in the chamber for good ol' uncle Ph0ney.
+===

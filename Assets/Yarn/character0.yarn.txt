@@ -1,0 +1,70 @@
+title: character0
+tags: 
+colorID: 0
+position: 297,233
+---
+<<if $decker_spoken is 1>>
+	Decker: I don't like repeating myself, kid. This is charity work for me as is.
+    [[character0.null]]
+<<endif>>
+
+Decker: Hey there, stranger. Congrats on making it this far.
+Decker: Assuming you didn't find this place by mistake,
+Decker: and, if you're already here,
+Decker: there's no way you don't know what you're getting into.
+Decker: So, you're looking to be a Hexxor?
+
+-> Yeah, sounds about right.
+	Decker: Great, let's get started then.
+-> No, not at all.
+	Decker: Hah! A good sense of humor'll help you out a lot in this line of work.
+
+Decker: You probably already know this, but I'm old fashioned so I'll give you the usual history lecture before we get down to business.
+Decker: Around 1982, there was a huge moral panic happening in the US revolving around Satanism, more specifically, the increased youth interest in performing dark rites.
+Decker: By then, Big Bub was already losing a lot of her following to new age movements and eastern religion.
+Decker: So she figured that the best way to fight the current and to stay current was to go digital.
+Decker: She said that "computers were going to change everything," and she was right.
+Decker: It's '96 now, and computers are the hottest thing since hell.
+Decker: Before the internet, Hexxors had to farm zombies and bring in new blood by word of mouth,
+Decker: but now that we have things like e-mail and BBS, our jobs have gotten a lot easier.
+Decker: And that's where we are, any questions?
+
+[[Got it, let's get started.|character0.GettingStarted]]
+[[You still haven't explained what a Hexxor is.|character0.Hexxors]]
+===
+title: character0.Hexxors
+tags: 
+colorID: 0
+position: 501,233
+---
+Decker: Like I said before, you should already know what you're getting into.
+Decker: But fine, I'll explain it.
+Decker: Hexxors are the Devil's digital recruiters.
+Decker: In the old days, you had to actually persuade people to buy into the whole Satanic thing.
+Decker: Now, all you have to do is send a virus as an attachment and they're automatically hypno'd into becoming a zombie the next time they open their email.
+Decker: In exchange for gathering zombies, Beezy grants you a percentage of the power she siphons from their souls.
+Decker: As you network more zombies, you'll get more power, and you'll be able to use more powerful HEX.
+Decker: Depending on the HEX and what they do, you can use them to gather zombies faster.
+Decker: Either that,
+Decker: or you can use HEX try to kill other Hexxors to absorb their botnets.
+Decker: Just be aware that doing the latter puts a target on your back, and being a Hexxor means you're eventually gonna have to kill or be killed.
+Decker: Some of us are powerful enough that we don't need to fight, and Hexxors think twice before trying to fight one of us.
+Decker: That's about the long and short of it.
+Decker: Go over and talk to sn0w to get started with using HEX.
+<<set $decker_spoken to 1>>
+===
+title: character0.GettingStarted
+tags: 
+colorID: 0
+position: 295,439
+---
+Decker: Go over and talk to sn0w about HEX.
+<<set $decker_spoken to 1>>
+===
+title: character0.null
+tags: 
+colorID: 0
+position: 305,3
+---
+Decker: Go talk to the others.
+===

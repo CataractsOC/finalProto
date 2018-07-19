@@ -1,0 +1,67 @@
+title: character3
+tags: 
+colorID: 0
+position: 744,40
+---
+<<if $decker_spoken is 0>>
+    phreekster: Uh oh, new guy on board.
+    phreekster: Hey, everyone!
+    phreekster: WE GOT A NEW GUY HERE!
+    phreekster: NEW KIDS ON THE BLOCK!
+    phreekster: DONNIE WAHLBERG IN THE BUILDING!
+    phreekster: Haha, just kidding.
+    phreekster: But seriously, if you're new, talk to Decker.
+    [[character3.null]]
+<<endif>>
+
+<<if $snow_spoken is 0>>
+    phreekster: Oops, you've got the wrong directions. You'll need to see sn0w first.
+    phreekster: Oh and uh,
+    phreekster: could you remind her to confirm that e-vite for that fancy dinner date?
+    phreekster: It's been about one week now...
+    [[character3.null]]
+<<endif>>
+
+<<if $phoney_spoken is 0>>
+    phreekster: Achtung! Go talk to that brute Ph0ney about barbarism before I show you anything.
+    phreekster: It's important to understand the difference between cave fighting and sophisticated combat.
+    [[character3.null]]
+<<endif>>
+
+<<if $phreekster_spoken is 1>>
+    phreekster: Go home and rest, friend. I'll send you an email to your DEC in the morning.
+    phreekster: Don't worry, it won't be a virus.
+    phreekster: Most likely.
+    [[character3.null]]
+<<endif>>
+
+phreekster: Oh hi, I didn't see you there.
+phreekster: I'm phreekster, superhuman and cyberspeeder extrordinaire.
+phreekster: I'll tell you everything you need to know about HEXware and botnetting.
+phreekster: I'll save the juicy bits for the live demonstration, but here's what you need to know:
+phreekster: Certain HEX require certain types of hardware to cast or transmit,
+phreekster: and more powerful HEX requires beefier configurations.
+phreekster: Every piece of gear you grab is useless until you hook it up to your rig, or your DEC.
+phreekster: HEXware components have different types, specs, and compatibility with other HEXware.
+phreekster: On the software side of things you have, of course, your HEX.
+phreekster: Now, if you're serious about being a Hexxor, you should know a few things about transmitting HEX.
+phreekster: You won't make it far if you open up an email tomorrow and get zapped with someone else's HEX.
+phreekster: That's where your zombies come in.
+phreekster: You can proxy HEX in or out through your botnet so your zombies get siphoned instead just in case someone tries to hit you.
+phreekster: The bigger your botnet, the better gear you'll need to sustain your connection to its power,
+phreekster: and the more protection you'll have for when someone tries to drain you.
+phreekster: That's all I'll say for now.
+phreekster: I'll send you an email tomorrow for a live demo of what you can do,
+phreekster: and I'll give you access to a small HEXnet sandbox to play around in.
+phreekster: Welcome to the club, buddy!
+<<set $phreekster_spoken to 1>>
+[[character3.null]]
+===
+title: character3.null
+tags: 
+colorID: 0
+position: 476,-128
+---
+phreekster: Peace be with you, habibi.
+phreekster: HEX the planet!
+===

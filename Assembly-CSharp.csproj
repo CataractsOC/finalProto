@@ -89,11 +89,14 @@
     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\NPC.cs" />
     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\PlayerCharacter.cs" />
     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\SpriteSwitcher.cs" />
+    <None Include="Assets\Yarn\character1.yarn.txt" />
     <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Ship.yarn.txt" />
     <None Include="Assets\YarnSpinner\Examples\DemoAssets\SimpleExampleScript.yarn.txt" />
+    <None Include="Assets\Yarn\character2.yarn.txt" />
     <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Sally.yarn.txt" />
+    <None Include="Assets\Yarn\character0.yarn.txt" />
     <None Include="Assets\YarnSpinner\README.txt" />
-    <None Include="Assets\Yarn\file.yarn.txt" />
+    <None Include="Assets\Yarn\character3.yarn.txt" />
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>C:/Users/test/Documents/GitHub/finalProto/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>

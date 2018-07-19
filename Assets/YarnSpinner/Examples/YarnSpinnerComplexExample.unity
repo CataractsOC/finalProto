@@ -409,6 +409,7 @@ GameObject:
   - component: {fileID: 924306999}
   - component: {fileID: 924307000}
   - component: {fileID: 924307001}
+  - component: {fileID: 924307002}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -440,6 +441,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcea1ccd45a8141e594a8103eefc1fbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 6
+  jumpSpeed: 8
+  gravity: 20
   interactionRadius: 4
 --- !u!114 &924307000
 MonoBehaviour:
@@ -500,6 +504,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!143 &924307002
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 924306997}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 3.06
+  m_Radius: 0.82
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1045999317
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,6 +812,11 @@ Prefab:
     - target: {fileID: 224372396917202344, guid: 8f757bfab8ad56948a91f45e326f036f,
         type: 2}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224722277723608738, guid: 8f757bfab8ad56948a91f45e326f036f,
+        type: 2}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

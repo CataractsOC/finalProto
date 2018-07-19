@@ -1,0 +1,51 @@
+title: character1
+tags: 
+colorID: 0
+position: 744,41
+---
+<<if $decker_spoken is 0>>
+    sn0w: Hey if you're new, go talk to Decker for the intro lecture. He's over on the left.
+    [[character1.null]]
+<<endif>>
+
+<<if $snow_spoken is 1>>
+    sn0w: You're not powerful enough to learn anything new. Go talk to the guy at the end of the mausoleum.
+    [[character1.null]]
+<<endif>>
+
+sn0w: Hi, I'm sn0w. I'm guessing you came over to learn about HEX?
+
+-> Not really.
+    sn0w: Okay, whatever.
+    [[character1.null]]
+-> Yeah, Decker told me to speak with you.
+    sn0w:Of course he did.
+
+sn0w: You're looking at the gal who practically invented HEX.
+sn0w: Well, maybe not the one to invent it.
+sn0w: But I did absorb my college roommate who did, and she was the first ever Hexxor!
+sn0w: Anyways, let's get you going with some starter HEX.
+sn0w: I cloned your handle when you walked in here, and I've already sent a test spell to your DEC.
+sn0w: It's a basic soul siphon that only works on non-Hexxors, so don't get any ideas.
+sn0w: Generally speaking, HEX is a type of black magik that not only works in the physical world,
+sn0w: but whose effects can also be transmitted over the wire.
+sn0w: Different kinds of HEX have different effects, and with varying degrees.
+sn0w: And you can even modify or code your own HEX if you have the spare time.
+sn0w: Every time you use HEX, the cost of the cast is from your own power in the form of soul energy.
+sn0w: If you let your soul energy completely deplete, you die.
+sn0w: If another Hexxor siphons all of your soul energy, you die.
+sn0w: If you write a pooly-coded HEX and it accidentally corrupts your soul, you die.
+sn0w: The lesson here is, if you're not ready to accept the risk of death, don't mess with HEX.
+sn0w: That's all I've got to teach you for now.
+sn0w: If you wanna come back and buy HEX,
+sn0w: or if you want to learn more when you have more power, come see me.
+sn0w: Go talk to the guy at the end of the mausoleum.
+<<set $snow_spoken to 1>>
+===
+title: character1.null
+tags: 
+colorID: 0
+position: 476,-127
+---
+sn0w: See you around.
+===
