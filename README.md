@@ -33,9 +33,6 @@ To speak with NPCs, get close to them and hit space. All controls for player mov
 I'm a really big fan of exploitation films of the 70s and 80s related to the Satanic panic that was going on at the time. I'm also pretty enamored by 80s and 90s hacker culture. I drew a lot of themes from films such as 1982's Evilspeak as well as 1995's Hackers and 1992's Sneakers and tried to mash them together in something I thought might be interesting.
 
 
-![Image of Hackers](https://cdn-images-1.medium.com/max/964/0*JtrE4wwY5SDpVgk6.)
-
-
 The project features conditional dialogue trees, so players are given dialogue choices that lead to different bits of conversation. Try playing the scene multiple times and talking to NPCs that you shouldn't be. If you're curious as to what dialogue you may have missed, you can open up the \*.yarn.txt files located in Assets\Yarn.
 
 
