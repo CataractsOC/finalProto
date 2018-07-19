@@ -30,8 +30,13 @@ using System.Collections.Generic;
 
 namespace Yarn.Unity.Example {
     public class PlayerCharacter : MonoBehaviour {
+        public float speed = 6.0F;
+        public float jumpSpeed = 8.0F;
+        public float gravity = 20.0F;
 
         public float interactionRadius = 2.0f;
+
+        private Vector3 moveDirection = Vector3.zero;
 
         /// Draw the range at which we'll start talking to people.
         void OnDrawGizmosSelected() {
@@ -45,16 +50,30 @@ namespace Yarn.Unity.Example {
         }
 
         /// Update is called once per frame
-        void Update () {
+        void Update()
+        {
+            CharacterController controller = GetComponent<CharacterController>();
 
             // Remove all player control when we're in dialogue
-            if (FindObjectOfType<DialogueRunner>().isDialogueRunning == true) {
+            if (FindObjectOfType<DialogueRunner>().isDialogueRunning == true)
+            {
                 return;
             }
 
+            // Move the player
+            if (controller.isGrounded)
+            {
+                moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+                moveDirection = transform.TransformDirection(moveDirection);
+                moveDirection *= speed;
+            }
+            moveDirection.y -= gravity * Time.deltaTime;
+            controller.Move(moveDirection * Time.deltaTime);
+
             // Detect if we want to start a conversation
-            if (Input.GetKeyDown(KeyCode.Space)) {
-                CheckForNearbyNPC ();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                CheckForNearbyNPC();
             }
         }
 
