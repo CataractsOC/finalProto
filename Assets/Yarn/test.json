@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "This is the first node!\n\n[[Go to the next node|NextNode]]\n[[No thanks|NoThanks]]\n",
+		"position": {
+			"x": 220,
+			"y": 204
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NextNode",
+		"tags": "",
+		"body": "This is the next node!",
+		"position": {
+			"x": 669,
+			"y": 283
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NoThanks",
+		"tags": "",
+		"body": "Hey, no problem.",
+		"position": {
+			"x": 316,
+			"y": 610
+		},
+		"colorID": 1
+	}
+]

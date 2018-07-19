@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{E5C00A68-E6DB-FEA3-938C-F34D364EA738}</ProjectGuid>
+    <ProjectGuid>{D5B5E87F-D82D-1D67-35A1-E66296223C28}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,26 +63,56 @@
   <ItemGroup>
     <Compile Include="Assets\firstPersonController.cs" />
     <Compile Include="Assets\SmoothMouseLook.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/test/Documents/GitHub/test/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/test/Documents/GitHub/test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/test/Documents/GitHub/test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/test/Documents/GitHub/test/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\YarnSpinner\Code\Analyser.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\AntlrCompiler.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\Compiler.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\Dialogue.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\DialogueRunner.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\ErrorListener.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\Lexer.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\Library.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\Loader.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\Parser.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\Program.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\Value.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\VirtualMachine.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\YarnSpinnerLexer.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\YarnSpinnerParser.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\YarnSpinnerParserBaseListener.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\YarnSpinnerParserBaseVisitor.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\YarnSpinnerParserListener.cs" />
+    <Compile Include="Assets\YarnSpinner\Code\YarnSpinnerParserVisitor.cs" />
+    <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\CameraFollow.cs" />
+    <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\ExampleDialogueUI.cs" />
+    <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\ExampleVariableStorage.cs" />
+    <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\MobileOnly.cs" />
+    <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\NPC.cs" />
+    <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\PlayerCharacter.cs" />
+    <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\SpriteSwitcher.cs" />
+    <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Ship.yarn.txt" />
+    <None Include="Assets\YarnSpinner\Examples\DemoAssets\SimpleExampleScript.yarn.txt" />
+    <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Sally.yarn.txt" />
+    <None Include="Assets\YarnSpinner\README.txt" />
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/test/Documents/GitHub/test/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/test/Documents/GitHub/test/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/test/Documents/GitHub/test/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -282,23 +312,32 @@
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/test/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/test/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="KdTreeLib">
-      <HintPath>C:/Users/test/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
-    </Reference>
     <Reference Include="ProBuilderCore">
       <HintPath>C:/Users/test/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps">
       <HintPath>C:/Users/test/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderMeshOps.dll</HintPath>
     </Reference>
+    <Reference Include="KdTreeLib">
+      <HintPath>C:/Users/test/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+    </Reference>
     <Reference Include="pb_Stl">
       <HintPath>C:/Users/test/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
     </Reference>
     <Reference Include="Poly2Tri">
       <HintPath>C:/Users/test/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/test/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr4.Runtime.Standard">
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Assets/YarnSpinner/Code/Antlr4.Runtime.Standard.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper">
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Assets/YarnSpinner/Code/CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Users/test/Documents/GitHub/finalProto/Assets/YarnSpinner/Code/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
