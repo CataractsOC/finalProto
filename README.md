@@ -18,7 +18,7 @@ This is a prototype for the final project submission.
 
 This prototype is meant to demonstrate environment grayboxing using ProBuilder as well as dialogue management using YarnSpinner. A description and the source for YarnSpinner can be found at:
 
-https://github.com/thesecretlab/YarnSpinner/releases
+https://github.com/thesecretlab/YarnSpinner/
 
 YarnSpinner is meant to be implemented mainly in 2D games, but I wanted to see if it would play nicely with a 3D prototype instead. I've modified the scripts included in the package in order to do so.
 
