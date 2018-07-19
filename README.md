@@ -1,4 +1,4 @@
-# finalProto
+# finalProto - Hexx0r: The Cybersatanic Hacker RPG
 
 ## Unity Project Description
 
