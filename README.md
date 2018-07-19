@@ -1,8 +1,8 @@
 # finalProto
 
-##Unity Project Description
+## Unity Project Description
 
-###Prerequisites
+### Prerequisites
 
 This prototype requires Unity 2018.1.8f1 or later to open. 
 
@@ -12,7 +12,7 @@ The ProBuilder package can be imported from the pagkage manager window, and Yarn
 
 https://github.com/thesecretlab/YarnSpinner/releases
 
-###Technical Description
+### Technical Description
 
 This is a prototype for the final project submission.
 
@@ -24,7 +24,7 @@ YarnSpinner is meant to be implemented mainly in 2D games, but I wanted to see i
 
 To speak with NPCs, get close to them and hit space. All controls for player movement and mouselook should freeze up when you're in a conversation.
 
-##Project Background
+## Project Background
 
 I'm a really big fan of exploitation films of the 70s and 80s related to the Satanic panic that was going on at the time. I'm also pretty enamored by 80s and 90s hacker culture. I drew a lot of themes from films such as 1982's Evilspeak as well as 1995's Hackers and 1992's Sneakers and tried to mash them together in something I thought might be interesting.
 
