@@ -1,0 +1,31 @@
+title: character0
+tags: 
+colorID: 0
+position: 294,234
+---
+character0: This is the first node!
+
+[[Go to the next node|NextNode]]
+[[No thanks|NoThanks]]
+===
+title: NextNode
+tags: 
+colorID: 6
+position: 604,322
+---
+This is the next node!
+===
+title: NoThanks
+tags: 
+colorID: 1
+position: 264,541
+---
+Hey, no problem.
+===
+title: Start
+tags: 
+colorID: 0
+position: 52,84
+---
+Empty Text
+===
